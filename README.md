@@ -1,7 +1,4 @@
 # ChillControl
-This repository is made to publish IoT - experimental project code. ChillControl – Smart ESP32 &amp; Adafruit IO tracker for temperature control and energy loss. Dual-mode support for fridges and portable coolers.
-
-# ChillControl
 **Smart IoT Monitor for Coolers and Refrigerators**
 
 ChillControl is an ESP32-based IoT solution designed to monitor the efficiency and usage of both portable coolers and standard refrigerators. It tracks temperature, humidity, and door activity while calculating real-time energy loss and financial costs associated with door openings in refrigerator mode.

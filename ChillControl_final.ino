@@ -50,6 +50,7 @@ Adafruit_MQTT_Publish p_hum = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/
 Adafruit_MQTT_Publish p_counts = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/oven-avausmat");
 Adafruit_MQTT_Publish p_energy = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/hukka-energia");
 Adafruit_MQTT_Publish p_euro = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/hukka-eurot");
+Adafruit_MQTT_Publish p_time = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/aukioloaika");
 
 Adafruit_MQTT_Subscribe s_raja = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "/feeds/lampotilaraja");
 Adafruit_MQTT_Subscribe s_moodi = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "/feeds/laitemoodi");
@@ -251,3 +252,4 @@ void naytaTilanVaihto() {
   delay(2500);
   lcd.clear();
 }
+
